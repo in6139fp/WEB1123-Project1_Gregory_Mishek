@@ -1,5 +1,3 @@
-/*console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");
-console.log("Hello World");*/
+/* 
+let addToHead = document.querySelector("head");
+console.log(add to head)
