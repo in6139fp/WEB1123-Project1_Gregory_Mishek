@@ -16,3 +16,9 @@ body {
   height: 100vh;
   overflow: scroll;
 }
+p {
+  color: #FFF;
+  font-weight: lighter;
+  line-height: 1.5em;
+  margin-top: 1em;
+}
