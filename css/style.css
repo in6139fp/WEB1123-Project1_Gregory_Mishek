@@ -22,3 +22,22 @@ p {
   line-height: 1.5em;
   margin-top: 1em;
 }
+
+td,
+span {
+color:#fff;
+font-size: 1.5em;
+}
+span {
+  padding-bottom: 0.25em;
+  display: inline-flex;
+}
+img {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 0.5px solid #fff;
+  border-radius: 0.5em;
+}
+.wrapperDivs section {
+  padding: 2em;
+}
