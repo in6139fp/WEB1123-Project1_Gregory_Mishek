@@ -52,4 +52,4 @@ console.log(allArtists[3]);
 
 function getArtist() {
     let sections = document.querySelectorAll('.wrapperDivs > section')
-}
+  }
