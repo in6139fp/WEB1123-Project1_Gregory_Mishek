@@ -50,5 +50,20 @@ let artist4 = new Artist('Kraftwerk', 'Computer World', 'Kling Klang/Warner Brot
 let allArtists = [artist1, artist2, artist3, artist4];
 
 function getArtist() {
-    let sections = document.querySelectorAll('.wrapperDivs > section')
+    let sections = document.querySelectorAll('.wrapperDivs > section');
+    for(let i = 0; i < sections.length; i++) {
+let artistList = "<table>";
+artistList += "<tr><td>Artist Name:</td><td>" + allArtists [i].artistname + "</td></tr>";
+artistList += "<tr><td>Artist Album:</td><td>" + allArtists [i].album + "</td></tr>";
+artistList += "<tr><td>Artist Label:</td><td>" + allArtists [i].label + "</td></tr>";
+artistList += "<tr><td>Artist Release Year:</td><td>" + allArtists [i].year + "</td></tr>";
+artistList += "</table>";
+artistList += '<img src="images/' + allArtists[i].albumImg + '.jpeg" alt="' + allArtists[i].album + '">';
+artistList += "<span>Artist Bio: </span><hr><p>" + allArtists[i].bio + "</p>";
+sections[i].innerHTML = artistList;
+
+
+    }
+  
   }
+  getArtist();
